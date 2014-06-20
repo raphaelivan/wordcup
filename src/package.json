@@ -1,0 +1,28 @@
+{
+  "name": "wcup",
+  "version": "0.1.0",
+  "description": "Get real-time information of the World Cup in Brazil from terminal.",
+  "main": "./lib/worldcup",
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:raphaelivan/worldcup.git"
+  },
+
+  "keywords": [
+    "worldcup",
+    "realtime",
+    "fifa",
+    "soccer",
+    "matches",
+    "ranking"
+  ],
+
+  "bugs": {
+      "url": "https://github.com/raphaelivan/worldcup/issues"
+  },
+
+  "homepage": "https://github.com/raphaelivan/worldcup",
+
+  "author": "Raphael Ivan <contato@raphaelivan.com.br>",
+  "license": "MIT"
+}

@@ -2,15 +2,10 @@ WorldCup
 ===================
 Get real-time information of the World Cup in Brazil from terminal.
 
-## Install
-```sh
-  npm install wcup -g
-```
-
 ## Usage
 Require the worldcup module.
 ```js
-  var worldcup = require('wcup').worldcup;
+  var worldcup = require('worldcup').worldcup;
 ```
 
 ### Get all times

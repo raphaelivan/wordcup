@@ -6,7 +6,6 @@
     , url  = 'http://worldcup.sfg.io/'
     , Api = {};
 
-
   Api.teams = function (callback) {
     request.get(url + '/teams', function (error, response, body) {
       var json = JSON.parse(body);
