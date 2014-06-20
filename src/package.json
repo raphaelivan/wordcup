@@ -1,6 +1,6 @@
 {
   "name": "wcup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get real-time information of the World Cup in Brazil from terminal.",
   "main": "./lib/worldcup",
   "repository": {

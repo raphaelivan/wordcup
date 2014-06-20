@@ -117,3 +117,19 @@ Require the worldcup module.
     */
   });
 ```
+
+
+### Get current games
+```js
+  wordcup.current(function(data){
+  });
+```
+
+### Get today's games
+```js
+  wordcup.today(function(data){
+  });
+```
+
+## License
+WorldCup is available under the MIT license.

@@ -2,10 +2,15 @@ WorldCup
 ===================
 Get real-time information of the World Cup in Brazil from terminal.
 
+## Install
+```sh
+  npm install wcup -g
+```
+
 ## Usage
 Require the worldcup module.
 ```js
-  var worldcup = require('worldcup').worldcup;
+  var worldcup = require('wcup').worldcup;
 ```
 
 ### Get all times
@@ -112,3 +117,19 @@ Require the worldcup module.
     */
   });
 ```
+
+
+### Get current games
+```js
+  wordcup.current(function(data){
+  });
+```
+
+### Get today's games
+```js
+  wordcup.today(function(data){
+  });
+```
+
+## License
+WorldCup is available under the MIT license.
