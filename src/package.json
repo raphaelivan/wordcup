@@ -1,13 +1,12 @@
 {
   "name": "wcup",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get real-time information of the World Cup in Brazil from terminal.",
   "main": "./lib/worldcup",
   "repository": {
-      "type": "git",
-      "url": "git@github.com:raphaelivan/worldcup.git"
+    "type": "git",
+    "url": "git@github.com:raphaelivan/worldcup.git"
   },
-
   "keywords": [
     "worldcup",
     "realtime",
@@ -16,13 +15,14 @@
     "matches",
     "ranking"
   ],
-
   "bugs": {
-      "url": "https://github.com/raphaelivan/worldcup/issues"
+    "url": "https://github.com/raphaelivan/worldcup/issues"
   },
-
   "homepage": "https://github.com/raphaelivan/worldcup",
-
   "author": "Raphael Ivan <contato@raphaelivan.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+
+  "dependencies": {
+    "request": "^2.36.0"
+  }
 }

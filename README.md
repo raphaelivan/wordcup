@@ -2,7 +2,7 @@ WorldCup
 ===================
 Get real-time information of the World Cup in Brazil from terminal.
 
-## Install
+## Install [![NPM version](https://badge.fury.io/js/wcup.svg)](http://badge.fury.io/js/wcup)
 ```sh
   npm install wcup -g
 ```
